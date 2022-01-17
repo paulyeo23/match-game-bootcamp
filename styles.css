@@ -1,3 +1,20 @@
 body {
   background-color: pink;
 }
+
+#header {
+  color: red;
+}
+html {
+  min-height: 100vh;
+  cursor: url(Assets/Cursors/Ghost.cur), auto;
+  font-family: Lunacy;
+}
+.gameContainer {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  justify-content: center;
+  perspective: 500px;
+}
